@@ -130,6 +130,22 @@ form {
     background-color: #FFFFFF
 }
 
+.aboutme {
+    display: flex;
+    justify-content: center;
+}
+
+.flexbox-item-pic{
+    height: 250px;
+    width: 250px;;
+}
+
+.flexbox-item-aboutcopy{
+    flex-grow: 2;
+    height: 500px;
+    padding: 20px;
+}
+
 .portfolioheader {
     margin-left:50px;
     margin-bottom:20px;
