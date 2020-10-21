@@ -28,8 +28,6 @@ This time around I have incorporated flexbox elements to see how they would work
 
 My phone number has also been moved to the footer bar.
 
-There are some sticky spots around my Portfolio page to improve but the site looks more professional than my last attempt.
-
 I also plan on incorporating Mongoose and building a database to hold those who complete my contact me form in the near future.
 
 ## License

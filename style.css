@@ -45,7 +45,7 @@ background-color: #142c4c;
 }
 
 .galleryimage {
-    width: auto;
+    /* width: auto; */
     margin-bottom: 20px;
 }
 .headertext{
@@ -68,7 +68,10 @@ background-color: #142c4c;
     font-size: 36px;
     color: teal;
 }
-
+.portfoliobox .row .galleryimage img{
+    max-width: 400px;
+    height: auto;
+}
 #contentbox {
     margin-bottom:30px;
 }
@@ -157,8 +160,8 @@ form {
 }
 
 .portfoliobox {
-    display: flex;
-    justify-content: space-around;
+    /* display: flex;
+    justify-content: space-around; */
     padding: 10px;
     margin: 10px;
 }
