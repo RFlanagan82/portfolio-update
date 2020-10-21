@@ -112,7 +112,6 @@ form {
     vertical-align: middle;
     align-items: center;
     font-size: 20px;
-    font-family: 'Lato';
     border-top:8px solid #142c4c;
 
 }
@@ -135,6 +134,11 @@ form {
     justify-content: center;
 }
 
+.aboutmecontent {
+    background-color:#FFFFFF;
+    padding:15px;
+}
+
 .flexbox-item-pic{
     height: 250px;
     width: 250px;;
@@ -142,23 +146,21 @@ form {
 
 .flexbox-item-aboutcopy{
     flex-grow: 2;
-    height: 500px;
-    padding: 20px;
-}
-
-.portfolioheader {
-    margin-left:50px;
-    margin-bottom:20px;
-}
-
-#portfolioline {
-    margin-left:35px;
-}
-
-.portfolio-content {
-    display: inline;
     padding: 10px;
-    margin: 25px;
+}
+
+.project-link {
+    background-color: #FFFFFF;
+    color:#142c4c;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.portfoliobox {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 10px;
 }
 
 .content-row1 {
@@ -173,4 +175,14 @@ form {
 
 #socialIcons {
     background-color:#ffffff!important;
+}
+
+.contactform {
+display: flex;
+justify-content: center;
+margin-top: 25px;
+}
+
+#footer {
+    margin-top: 200px;
 }

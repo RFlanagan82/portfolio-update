@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ryan Flanagan Porfolio 2.0</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+          <!--Here is where I put in the Navigation Bar -->
+  <nav class="navbar navbar-expand-xl navigation">
+    <a class="navbar-brand" href="./index.html">Ryan Flanagan</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    <!--Here is where I put in the site nav elements-->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto navbarelements">
+        <li class="nav-item active">
+          <a class="nav-link" href="./about.html" tabindex="-1" aria-disabled="true">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./assets/R.Flanagan Resume 2020.pdf">Resume</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./contact.html" id ="active" >Contact<span class="sr-only">(current)</span></a>
+        </li>
+      </ul>
+    </div>
+  </nav><!--This is the end of the Nav Bar Section-->
+
+      <!-- Contact -->
+      <div class="flexbox-container contactform">
+            <div class="card" style="width:800px">
+              <div class="card-body card-body-style">
+                <h1 class="card-title">Contact</h1>
+                
+                <div class=image-paragraph-divider>
+                  
+                  <form id="my-form"
+                  action="https://formspree.io/f/mbjpgrrj"
+                  method="POST">
+                    <div class="form-group">
+                      <label for="Name">Name</label>
+                      <input type="text" class="form-control" name="name" id="name" placeholder="Name">
+                    </div>
+                    <div class="form-group">
+                      <label for="Email">Email</label>
+                      <input type="email" class="form-control" name="_replyto" id="email" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                      <label for="Message">Message</label>
+                      <textarea class="form-control" id="message" name="message" rows="3" placeholder="Message"></textarea>
+                    </div>
+                    <input class="btn btn-primary button" type="submit" id="submit" value="Submit">
+                  </form>
+             
+                </div>
+
+              </div>
+            </div>
+      </div>
+
+  <div class="flexbox-container socialbox">
+    <div class="flexbox-item flexbox-item-1">
+      <a href="https://github.com/RFlanagan82"> 
+        <img src="assets/github icon.png" alt="githubicon" style="height: 90px; width: 90px">
+      </a>
+    </div>
+    <div class="flexbox-item flexbox-item-2">
+      <a href="mailto: flanagan.ryan@gmail.com"> 
+        <img src="assets/emailicon.png" alt="emailicon" style="height: 90px; width: 90px">
+      </a>
+    </div>
+    <div class="flexbox-item flexbox-item-3">
+      <a href="https://www.linkedin.com/in/ryanflanagan82/"> 
+        <img src="assets/linkedin.jpg" alt="linkedinicon" style="height: 95px; width: 95px">
+      </a>
+    </div>
+  </div>
+
+  <footer class="row" id="footer"> <!--Footer Row Content-->
+    <!--<div class="card"><!--The content in this div gets wrapped in a card-->
+      <div class="text-center">
+        <p class="footertext">© 2020. Ryan Flanagan - Phone: 770.906.2060</p>
+      </div>
+    <!--</div>-->
+  </footer><!--End of Footer Row Content-->
+</body>
+</html>
