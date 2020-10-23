@@ -23,7 +23,7 @@ background: #142c4c;
 }
 
 .skills {
-color: whitesmoke;
+color: whitesmoke!important;
 float: right;
 }
 
