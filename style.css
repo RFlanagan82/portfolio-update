@@ -23,8 +23,10 @@ background: #142c4c;
 }
 
 .skills {
+position: relative;
 color: whitesmoke!important;
 float: right;
+margin-top: -40px;
 }
 
 .navbar {
@@ -125,6 +127,13 @@ form {
 }
 
 .socialbox {
+    align-items: center;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+
+.socialbox2 {
     display: flex;
     justify-content: center;
 }
